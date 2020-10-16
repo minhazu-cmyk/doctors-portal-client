@@ -1,0 +1,10 @@
+.btn-brand{
+    border-color: transparent;
+    text-transform: uppercase;
+    background-image: linear-gradient(#1CC7C1);
+    font-weight: 600;
+    background-color:  #1CC7C1;
+}
+.text-color{
+   color: #1CC7C1 ;
+}
