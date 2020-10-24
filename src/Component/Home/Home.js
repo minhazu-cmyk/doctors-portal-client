@@ -3,6 +3,9 @@ import AppointmentSection from './AppointmentSection/AppointmentSection';
 import DentalServices from './DentalServices/DentalServices';
 
 import Header from './Header';
+import Connection from './Home/Connection/Connection';
+import OurDoctors from './Home/OurDoctors/OurDoctors';
+import OurBlog from './OurBlog/OurBlog';
 import PatientReview from './PatientReview/PatientReview';
 import Services from './Services/Services';
 
@@ -15,6 +18,10 @@ const Home = () => {
             <DentalServices></DentalServices>
             <AppointmentSection></AppointmentSection>
             <PatientReview></PatientReview>
+            <OurBlog></OurBlog>
+            <OurDoctors></OurDoctors>
+            <Connection></Connection>
+
         </div>
     );
 };

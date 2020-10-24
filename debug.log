@@ -5,3 +5,4 @@
 [1015/114732.207:ERROR:exception_snapshot_win.cc(99)] thread ID 10664 not found in process
 [1015/114732.207:ERROR:exception_snapshot_win.cc(99)] thread ID 9396 not found in process
 [1015/114732.207:ERROR:exception_snapshot_win.cc(99)] thread ID 8344 not found in process
+[1024/220035.933:ERROR:crash_report_database_win.cc(457)] unexpected header
