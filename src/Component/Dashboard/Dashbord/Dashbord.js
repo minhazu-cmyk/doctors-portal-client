@@ -1,8 +1,9 @@
 import React, { useEffect, useState} from 'react';
 import AppointmentByDashbord from '../AppointmentByDashbord/AppointmentByDashbord';
-import Sidebar from '../Sidebar/Sidebar';
+
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import Sidebar from '../Sidebar/Sidebar';
 
 const containerStyle={
     backgroundColor:"#F4FDFB",
@@ -16,7 +17,7 @@ const Dashbord = () => {
         setSelectedDate(date)
     }
      useEffect(()=>{
-        fetch('http://localhost:5000/addAppointmentByDate',{
+        fetch('https://aqueous-fjord-04753.herokuapp.com/addAppointmentByDate',{
             method:'POST',
             headers:{'content-type':'application/json'},
             body: JSON.stringify({date:selectedDate})
@@ -32,13 +33,13 @@ const Dashbord = () => {
           <div className="col-md-2">
           <Sidebar></Sidebar>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5 ml-4">
           <Calendar
         onChange={handleDateChange}
         value={new Date()}
       />
           </div>
-          <div className="col-md-5">
+          <div className="col-md-4">
          <AppointmentByDashbord appointment={appointment}></AppointmentByDashbord>
           </div>
        </div>

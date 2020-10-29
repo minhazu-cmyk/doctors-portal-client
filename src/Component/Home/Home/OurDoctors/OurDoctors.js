@@ -1,28 +1,18 @@
 import React from 'react';
-import doctor from '../../../../images/doctor.png'
+
+import Doctor from './Doctor';
 
 const OurDoctors = () => {
     return (
-        <section>
-         <div className="container">
-        <div  className="row">
-            <div  className="col-md-4">
-            <img style={{width:"200px",height:"200px"}}   src={doctor} alt=""/>
-            <p style={{marginLeft:"60px"}}> <strong> DR.CAUDI</strong> </p>
-            <p style={{marginLeft:"60px"}} ><small>013974384</small>   </p>
+        <section className="doctors">
+            <div className="container">
+                <h5 className="text-center  text-primary mb-5">Our Doctors</h5>
+                <div className="row">
+                    <Doctor/>
+                    <Doctor/>
+                    <Doctor/>
+                </div>
             </div>
-            <div className="col-md-4">
-             <img  style={{width:"200px",height:"200px"}}  src={doctor} alt=""/>
-             <p style={{marginLeft:"60px"}}> <strong> DR.CAUDI</strong> </p>
-             <p style={{marginLeft:"60px"}}><small>013974384</small>   </p>
-            </div>
-            <div className="col-md-4">
-                <img style={{width:"200px",height:"200px"}}  src={doctor} alt=""/>
-                <p style={{marginLeft:"60px"}}><strong> DR.CAUDI</strong> </p>
-                <p style={{marginLeft:"60px"}}><small>013974384</small>   </p>
-            </div>
-        </div>
-        </div>
         </section>
     );
 };

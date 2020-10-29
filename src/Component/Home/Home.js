@@ -4,6 +4,7 @@ import DentalServices from './DentalServices/DentalServices';
 
 import Header from './Header';
 import Connection from './Home/Connection/Connection';
+import Footer from './Home/Footer/Footer';
 import OurDoctors from './Home/OurDoctors/OurDoctors';
 import OurBlog from './OurBlog/OurBlog';
 import PatientReview from './PatientReview/PatientReview';
@@ -21,6 +22,7 @@ const Home = () => {
             <OurBlog></OurBlog>
             <OurDoctors></OurDoctors>
             <Connection></Connection>
+            <Footer></Footer>
 
         </div>
     );

@@ -6,3 +6,8 @@
 [1015/114732.207:ERROR:exception_snapshot_win.cc(99)] thread ID 9396 not found in process
 [1015/114732.207:ERROR:exception_snapshot_win.cc(99)] thread ID 8344 not found in process
 [1024/220035.933:ERROR:crash_report_database_win.cc(457)] unexpected header
+[1025/104718.560:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1025/204615.266:ERROR:process_info.cc(359)] UncheckedAllocate
+[1025/210604.312:ERROR:process_info.cc(359)] UncheckedAllocate
+[1025/210604.344:ERROR:process_info.cc(359)] UncheckedAllocate
+[1025/210604.344:ERROR:process_info.cc(359)] UncheckedAllocate
